@@ -14,8 +14,6 @@ By default, the program log the information every 1 second on a folder named `Lo
 `OutputFolder` can be set as relative path or absolute path (for example, `C:\Log\RAM` is valid).
 *Note: you need to restart the program if it is already started.*
 
-# Task Scheduler and Service
+# Task Scheduler
 
 If you want the program to start on startup, you can use [Task Scheduler](https://docs.microsoft.com/en-us/windows/desktop/taskschd/about-the-task-scheduler) for it.
-
-If you want it to be run as a service, it's fully compatible with [sc command](https://support.microsoft.com/en-us/help/251192/how-to-create-a-windows-service-by-using-sc-exe).
